@@ -1,0 +1,4 @@
+er-agent: *
+Allow: /
+
+Sitemap: https://dps0340.github.io/sitemap.xml
