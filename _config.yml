@@ -204,6 +204,8 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
+# 폰트를 나눔 고딕으로 적용
+google_fonts: "Nanum+Gothic:400,700"
 
 # Archives
 #  Type
