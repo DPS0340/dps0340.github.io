@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "이지호"
   avatar           : "https://avatars2.githubusercontent.com/u/32592965?s=400&u=71d69207d0e40f27dc52f4e285186a1dee0b3058&v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "한국산업기술대 컴퓨터공학과 2학년 재학 중, 아직 배울 것이 많은 학생입니다."
+  bio              : "한국산업기술대 컴퓨터공학과 2학년 재학 중, 아직 배울 것이 많은 학생입니다. 질문이나 수정이 필요한 것이 있다면 편하게 댓글 달아주세요."
   location         : "Korea, Gyeonggi-do, Siheung-si"
   email            : "optional.int@kakao.com"
   links:
@@ -254,3 +254,11 @@ defaults:
       comments: true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
