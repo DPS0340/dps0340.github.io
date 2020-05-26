@@ -99,9 +99,6 @@ author:
   location         : "Korea, Gyeonggi-do, Siheung-si"
   email            : "optional.int@kakao.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "optional.int@kakao.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dps0340"
