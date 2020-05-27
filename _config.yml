@@ -17,6 +17,8 @@ remote_theme           : "BlackrockDigital/startbootstrap-clean-blog-jekyll"
 # minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
+disqus_url: "https://https-dps0340-github-io.disqus.com/"
+disqus_id: "dps0340"
 locale                   : "ko-KR"
 title                    : "dps0340.github.io"
 title_separator          : "-"
