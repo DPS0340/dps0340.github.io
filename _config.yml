@@ -17,8 +17,6 @@ remote_theme           : "BlackrockDigital/startbootstrap-clean-blog-jekyll"
 # minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-disqus_url: "https://https-dps0340-github-io.disqus.com/"
-disqus_id: "dps0340"
 locale                   : "ko-KR"
 title                    : "dps0340.github.io"
 title_separator          : "-"
@@ -34,9 +32,9 @@ masthead_title           : "JL" # overrides the website title displayed in the m
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "dps0340-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
