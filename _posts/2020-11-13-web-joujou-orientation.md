@@ -12,7 +12,7 @@ C크릿 쥬쥬라는 소모임을 가입했었는데, 웹 담당으로 내가 �
 
 세 분은 메카트로닉스공학과를 다니면서 개발자를 준비한다고 하셨다. 프론트 한명에 백엔드 두명으로 이루어진 그룹이다. 나는 풀스택(?)
 
-![](./../assets/images/orientation-kakaotalk.jpeg)
+![](./../assets/images/orientation-whiteboard.jpeg)
 *6주 계획*
 
 일단 프론트는 html/css/js 기본을 배운 뒤, 모던/함수형 js를 하고, 마지막으로 React를 배우기로 했다.
