@@ -37,3 +37,9 @@ excerpt: 외주 앱 간략한 설명
 ![miseclone select](../assets/images/miseclone-select.png)
 ![miseclone result](../assets/images/miseclone-result.png)
 
+
+2020년 11월 16일 추가 내용
+
+AsyncTask를 사용하여 논블로킹 네트워킹을 구현했다.
+
+공공 데이터 요청 중에는 로딩 스크린이 뜨게 하였는데, 메인액티비티 로딩 xml을 재활용했다.
