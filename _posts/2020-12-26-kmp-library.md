@@ -37,7 +37,6 @@ class Solve {
     vector<string> sv;
     vector<string> table;
     int kmp(const StringWrapper &s, const StringWrapper &f);
-    int magic(string &s1, int n);
     void make_table(vector<bool> &visited, vector<string> &cache, int k);
 
   public:
@@ -117,18 +116,6 @@ Solve::Solve() {
         sv.push_back(s1);
     }
     cin >> k;
-}
-
-int Solve::magic(string &s1, int n) {
-    string s2{s1};
-    s2.append(s2);
-    StringWrapper wrap{s2};
-    StringWrapper f{s1};
-    int res = kmp(wrap, f);
-    if (res == k) {
-        return n;
-    }
-    return 0;
 }
 
 int Solve::kmp(const StringWrapper &s, const StringWrapper &f) {
